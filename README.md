@@ -1,14 +1,37 @@
-## Your GitHub Learning Lab Repository for Intro to HTML
+# 🐍 Snake Game
 
-Welcome to your repository for your GitHub Learning Lab course. This repository will be used during the different activities that I will be guiding you through.
+A classic Snake game built with HTML5 Canvas, CSS, and JavaScript. This modern implementation features smooth gameplay, beautiful graphics, and responsive design that works on both desktop and mobile devices.
 
-Oh! I haven't introduced myself...
+## Features
 
-I'm the GitHub Learning Lab bot and I'm here to help guide you in your journey to learn and master the various topics covered in this course. I will be using Issue and Pull Request comments to communicate with you. In fact, I already added an issue for you to check out.
+- **Smooth Gameplay**: Classic snake mechanics with modern animations
+- **Beautiful Design**: Gradient backgrounds, rounded corners, and glass-morphism effects
+- **Score System**: Live score tracking with persistent high score storage
+- **Multiple Controls**: Arrow keys, WASD, or touch/swipe controls on mobile
+- **Game States**: Start, pause, reset, and game over functionality
+- **Responsive**: Works on desktop, tablet, and mobile devices
+- **Visual Polish**: Snake with eyes, shiny food, grid overlay, and smooth transitions
 
-![issue tab](https://lab.github.com/public/images/issue_tab.png)
+## How to Play
 
-I'll meet you over there, can't wait to get started!
+1. Open `index.html` in your web browser
+2. Click "Start Game" to begin
+3. Use arrow keys or WASD to control the snake
+4. Eat the red food to grow and increase your score
+5. Avoid hitting walls or your own tail
+6. Try to beat your high score!
 
-This repository is licensed under [MIT](LICENSE) (c) 2019 GitHub, Inc.
-Photo by [Kelli Tungay](https://unsplash.com/photos/Sj0nhVIb4eY) on [Unsplash](https://unsplash.com/)
+## Controls
+
+- **Arrow Keys** or **WASD**: Move the snake
+- **Spacebar**: Pause/Resume game
+- **Touch/Swipe**: Mobile controls (swipe in direction you want to move)
+
+## Technologies Used
+
+- HTML5 Canvas for game rendering
+- CSS3 with modern features (gradients, animations, backdrop-filter)
+- Vanilla JavaScript with ES6+ classes
+- localStorage for high score persistence
+
+Enjoy the game! 🎮
